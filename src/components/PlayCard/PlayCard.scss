@@ -1,0 +1,15 @@
+.card {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	.img {
+		width: 250px;
+	}
+	&:hover {
+		scale: 1.2;
+	}
+	&.active {
+		filter: drop-shadow(16px 16px 20px rgb(255, 204, 1))
+			drop-shadow(-16px -16px 20px rgb(255, 204, 1));
+	}
+}

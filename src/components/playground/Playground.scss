@@ -1,0 +1,42 @@
+.playground {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin-bottom: 50px;
+}
+
+.computer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 250px;
+	img.shake {
+		animation: shake 1s linear infinite;
+	}
+}
+
+@keyframes shake {
+	10%,
+	90% {
+		rotate: (5deg);
+	}
+
+	20%,
+	80% {
+		rotate: (10deg);
+	}
+	30%,
+	70% {
+		rotate: (15deg);
+	}
+
+	40%,
+	60% {
+		rotate: (20deg);
+	}
+	50% {
+		rotate: (25deg);
+	}
+}
